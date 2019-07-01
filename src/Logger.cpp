@@ -7,7 +7,7 @@ Logger::~Logger() {
 }
 
 Logger& Logger::getInstance() {
-	static Logger instance = Logger();
+	static Logger instance;
 	return instance;
 }
 
